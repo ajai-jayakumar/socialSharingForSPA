@@ -53,6 +53,6 @@ app.use('/', express.static(__dirname + '/static'));
 
 app.set('view engine', 'jade');
 
-server = app.listen(process.env.PORT || 8000, function () {
+server = app.listen(process.env.PORT || 8080, function () {
   console.log('Server started.');
 });
